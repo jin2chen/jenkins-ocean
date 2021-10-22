@@ -1,1 +1,2 @@
 # jenkins-ocean
+branch: develop
