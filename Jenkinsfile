@@ -7,12 +7,6 @@ pipeline {
   }
   stages {
     stage('build') {
-      agent {
-        node {
-          label 'linux'
-        }
-
-      }
       steps {
         sh 'echo build'
       }
